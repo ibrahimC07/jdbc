@@ -48,5 +48,8 @@ public class PreparedStatement01 {
             System.out.println(result3.getInt(1)+"--"+result3.getString(2)+"--"+result3.getInt(3));
         }
 
+
+        //2. Örnek: "SELECT * FROM <table name>" query'sini prepared statement ile kullanın.
+
     }
 }
